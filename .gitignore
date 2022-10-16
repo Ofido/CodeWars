@@ -127,3 +127,110 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+package-lock.json
+node_modules/.package-lock.json
+node_modules/.bin/tsc
+node_modules/.bin/tsc.cmd
+node_modules/.bin/tsc.ps1
+node_modules/.bin/tsserver
+node_modules/.bin/tsserver.cmd
+node_modules/.bin/tsserver.ps1
+node_modules/typescript/AUTHORS.md
+node_modules/typescript/CODE_OF_CONDUCT.md
+node_modules/typescript/CopyrightNotice.txt
+node_modules/typescript/LICENSE.txt
+node_modules/typescript/package.json
+node_modules/typescript/README.md
+node_modules/typescript/SECURITY.md
+node_modules/typescript/ThirdPartyNoticeText.txt
+node_modules/typescript/bin/tsc
+node_modules/typescript/bin/tsserver
+node_modules/typescript/loc/lcl/CHS/Targets/ProjectItemsSchema.xaml.lcl
+node_modules/typescript/loc/lcl/CHS/Targets/TypeScriptCompile.xaml.lcl
+node_modules/typescript/loc/lcl/CHS/Targets/TypeScriptProjectProperties.xaml.lcl
+node_modules/typescript/loc/lcl/CHS/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+node_modules/typescript/loc/lcl/CHS/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+node_modules/typescript/loc/lcl/CHS/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+node_modules/typescript/loc/lcl/CHT/Targets/ProjectItemsSchema.xaml.lcl
+node_modules/typescript/loc/lcl/CHT/Targets/TypeScriptCompile.xaml.lcl
+node_modules/typescript/loc/lcl/CHT/Targets/TypeScriptProjectProperties.xaml.lcl
+node_modules/typescript/loc/lcl/CHT/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+node_modules/typescript/loc/lcl/CHT/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+node_modules/typescript/loc/lcl/CHT/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+node_modules/typescript/loc/lcl/CSY/Targets/ProjectItemsSchema.xaml.lcl
+node_modules/typescript/loc/lcl/CSY/Targets/TypeScriptCompile.xaml.lcl
+node_modules/typescript/loc/lcl/CSY/Targets/TypeScriptProjectProperties.xaml.lcl
+node_modules/typescript/loc/lcl/CSY/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+node_modules/typescript/loc/lcl/CSY/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+node_modules/typescript/loc/lcl/CSY/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+node_modules/typescript/loc/lcl/DEU/Targets/ProjectItemsSchema.xaml.lcl
+node_modules/typescript/loc/lcl/DEU/Targets/TypeScriptCompile.xaml.lcl
+node_modules/typescript/loc/lcl/DEU/Targets/TypeScriptProjectProperties.xaml.lcl
+node_modules/typescript/loc/lcl/DEU/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+node_modules/typescript/loc/lcl/DEU/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+node_modules/typescript/loc/lcl/DEU/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+node_modules/typescript/loc/lcl/ESN/Targets/ProjectItemsSchema.xaml.lcl
+node_modules/typescript/loc/lcl/ESN/Targets/TypeScriptCompile.xaml.lcl
+node_modules/typescript/loc/lcl/ESN/Targets/TypeScriptProjectProperties.xaml.lcl
+node_modules/typescript/loc/lcl/ESN/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+node_modules/typescript/loc/lcl/ESN/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+node_modules/typescript/loc/lcl/ESN/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+node_modules/typescript/loc/lcl/FRA/Targets/ProjectItemsSchema.xaml.lcl
+node_modules/typescript/loc/lcl/FRA/Targets/TypeScriptCompile.xaml.lcl
+node_modules/typescript/loc/lcl/FRA/Targets/TypeScriptProjectProperties.xaml.lcl
+node_modules/typescript/loc/lcl/FRA/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+node_modules/typescript/loc/lcl/FRA/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+node_modules/typescript/loc/lcl/FRA/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+node_modules/typescript/loc/lcl/ITA/Targets/ProjectItemsSchema.xaml.lcl
+node_modules/typescript/loc/lcl/ITA/Targets/TypeScriptCompile.xaml.lcl
+node_modules/typescript/loc/lcl/ITA/Targets/TypeScriptProjectProperties.xaml.lcl
+node_modules/typescript/loc/lcl/ITA/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+node_modules/typescript/loc/lcl/ITA/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+node_modules/typescript/loc/lcl/ITA/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+node_modules/typescript/loc/lcl/JPN/Targets/ProjectItemsSchema.xaml.lcl
+node_modules/typescript/loc/lcl/JPN/Targets/TypeScriptCompile.xaml.lcl
+node_modules/typescript/loc/lcl/JPN/Targets/TypeScriptProjectProperties.xaml.lcl
+node_modules/typescript/loc/lcl/JPN/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+node_modules/typescript/loc/lcl/JPN/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+node_modules/typescript/loc/lcl/JPN/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+node_modules/typescript/loc/lcl/KOR/Targets/ProjectItemsSchema.xaml.lcl
+node_modules/typescript/loc/lcl/KOR/Targets/TypeScriptCompile.xaml.lcl
+node_modules/typescript/loc/lcl/KOR/Targets/TypeScriptProjectProperties.xaml.lcl
+node_modules/typescript/loc/lcl/KOR/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+node_modules/typescript/loc/lcl/KOR/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+node_modules/typescript/loc/lcl/KOR/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+node_modules/typescript/loc/lcl/PLK/Targets/ProjectItemsSchema.xaml.lcl
+node_modules/typescript/loc/lcl/PLK/Targets/TypeScriptCompile.xaml.lcl
+node_modules/typescript/loc/lcl/PLK/Targets/TypeScriptProjectProperties.xaml.lcl
+node_modules/typescript/loc/lcl/PLK/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+node_modules/typescript/loc/lcl/PLK/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+node_modules/typescript/loc/lcl/PLK/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+node_modules/typescript/loc/lcl/PTB/Targets/ProjectItemsSchema.xaml.lcl
+node_modules/typescript/loc/lcl/PTB/Targets/TypeScriptCompile.xaml.lcl
+node_modules/typescript/loc/lcl/PTB/Targets/TypeScriptProjectProperties.xaml.lcl
+node_modules/typescript/loc/lcl/PTB/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+node_modules/typescript/loc/lcl/PTB/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+node_modules/typescript/loc/lcl/PTB/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+node_modules/typescript/loc/lcl/RUS/Targets/ProjectItemsSchema.xaml.lcl
+node_modules/typescript/loc/lcl/RUS/Targets/TypeScriptCompile.xaml.lcl
+node_modules/typescript/loc/lcl/RUS/Targets/TypeScriptProjectProperties.xaml.lcl
+node_modules/typescript/loc/lcl/RUS/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+node_modules/typescript/loc/lcl/RUS/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+node_modules/typescript/loc/lcl/RUS/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+node_modules/typescript/loc/lcl/TRK/Targets/ProjectItemsSchema.xaml.lcl
+node_modules/typescript/loc/lcl/TRK/Targets/TypeScriptCompile.xaml.lcl
+node_modules/typescript/loc/lcl/TRK/Targets/TypeScriptProjectProperties.xaml.lcl
+node_modules/typescript/loc/lcl/TRK/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+node_modules/typescript/loc/lcl/TRK/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+node_modules/typescript/loc/lcl/TRK/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+.vscode/tasks.json
+jsScripts/A Needle in the Haystack/v1.js
+jsScripts/A Needle in the Haystack/v1.js.map
+jsScripts/A Needle in the Haystack/v2.js
+jsScripts/A Needle in the Haystack/v2.js.map
+jsScripts/Are they the same/v1.js
+jsScripts/Are they the same/v1.js.map
+jsScripts/Beginner Series #2 Clock/v1.js
+jsScripts/Beginner Series #2 Clock/v1.js.map
+tsconfig.json
+.vscode/launch.json
