@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'teste/**'
+      - 'oi/**'
 
 jobs:
   check-for-if-path:
@@ -26,7 +27,7 @@ jobs:
           echo $SourceDiff
           $HasDiff = $SourceDiff.Length -gt 0
           echo $HasDiff
-          Write-Host "::set-output name=teste_files_changed::$HasDiff"
+          echo "teste_files_changed=$HasDiff" >> $GITHUB_OUTPUT
 
   fake-build-teste-files:
     runs-on: ubuntu-latest
