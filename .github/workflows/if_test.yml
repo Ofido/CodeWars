@@ -21,8 +21,11 @@ jobs:
         id: check_teste_files_changed
         run: |
           $diff = git diff --name-only HEAD^ HEAD
+          echo $diff
           $SourceDiff = $diff | Where-Object { $_ -match '^teste/' }
+          echo $SourceDiff
           $HasDiff = $SourceDiff.Length -gt 0
+          echo $HasDiff
           Write-Host "::set-output name=teste_files_changed::$HasDiff"
 
   fake-build-teste-files:
