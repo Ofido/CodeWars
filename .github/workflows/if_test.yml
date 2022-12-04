@@ -22,10 +22,13 @@ jobs:
         id: check_teste_files_changed
         run: |
           $diff = git diff --name-only HEAD^ HEAD
+          echo "diff"
           echo $diff
           $SourceDiff = $diff | Where-Object { $_ -match '^teste/' }
+          echo "SourceDiff"
           echo $SourceDiff
           $HasDiff = $SourceDiff.Length -gt 0
+          echo "HasDiff"
           echo $HasDiff
           echo "teste_files_changed=$HasDiff" >> $GITHUB_OUTPUT
 
