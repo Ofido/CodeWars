@@ -44,7 +44,7 @@ jobs:
   this-will-run:
     runs-on: ubuntu-latest
     needs: [fake-build-teste-files]
-    if: ${{ always() }}
+    if: always() && needs.Skipped-Job.result != 'failure'
     steps:
       - run: |
           echo "Hi 2"
