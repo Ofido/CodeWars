@@ -1,5 +1,6 @@
 [tool.black]
 line-length = 80
+target-version = ["py311"]
 exclude = '''
 /(
     \.git
@@ -12,8 +13,46 @@ exclude = '''
   | build
   | dist
   | common_layers
+  | env
+  | node_modules
+  | tests
 )/
 '''
 [tool.isort]
 profile = "black"
 multi_line_output = 3
+[tool.bandit]
+exclude_dirs = [".git",
+    ".hg",
+    ".mypy_cache",
+    ".tox",
+    ".venv",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "common_layers",
+    "env",
+    "tests",
+    "exemples",
+    "node_modules",
+    "docs"]
+[tool.coverage.paths]
+source = [
+    "src/**",
+    ]
+[tool.coverage.report]
+omit = ["tests/**"]
+# Regexes for lines to exclude from consideration
+exclude_also = [
+    # Don't complain if tests don't hit defensive assertion code:
+    "raise AssertionError",
+    "raise NotImplementedError",
+
+    # Don't complain if non-runnable code isn't run:
+    "if 0:",
+    "if __name__ == .__main__.:",
+
+    # Don't complain about abstract methods, they aren't run:
+    "@(abc\\.)?abstractmethod",
+    ]

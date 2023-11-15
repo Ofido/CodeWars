@@ -1,3 +1,6 @@
 [flake8]
-max-line-length=80
-exclude = .git,.hg,.mypy_cache,.tox,.venv,_build,buck-out,build,dist,common_layers
+statstics=True
+count=True
+max-line-length = 80
+extend-ignore = F821
+exclude = .git, .hg, .mypy_cache, .tox, .venv, _build, buck-out, build, dist, common_layers, env, tests, exemples, node_modules, docs
